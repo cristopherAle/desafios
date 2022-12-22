@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Desafio 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="parte1">
+            <h1>Parte 1</h1>
+            <img class="img_parte1" id="img_caratulapeces" src="./assets/img/caratulapeces.jpg" alt="Caratula Peces">
+            <script></script>
+        </div>
+
+        <div class="parte2">
+
+            <h1>Parte 2</h1>
+            <div class="containerimagen text-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/lespaul.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <input type="number" id="guitarra1" placeholder="Ingresar cantidad" max="10" min="0">
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/sg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <input type="number" id="guitarra2" placeholder="Ingresar cantidad" max="10" min="0">
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/firebird.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <input type="number" id="guitarra3" placeholder="Ingresar cantidad" max="10" min="0">
+                    </div>
+                  </div>
+                  <div class="comprastickers">
+                              <h3 id="mensaje">Llevas la cantidad <span id="total">0</span> guitarras</h3>
+                  <a id="submit" class="btn btn-success text-center">Comprar Stickers</a>
+                  </div>
+        
+
+               
+            </div>
+    
+        </div>
+
+        <div class="parte3">
+            
+            <h1>Parte 3</h1>
+            <div class="containerOption">
+                <div class="color1">
+                    <select class = "optionNumero form-select form-select-lg mb-3" name="" id="numero1">
+                        <option selected disabled>Selecciona un numero</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="color2">
+                    <select class = "optionNumero form-select form-select-lg mb-3" name="" id="numero2">
+                        <option selected disabled>Selecciona un numero</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="color3">
+                    <select class = "optionNumero form-select form-select-lg mb-3" name="" id="numero3">
+                        <option selected disabled>Selecciona un numero</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <br>
+              
+            </div>
+
+            <p id="resultado"></p>
+    
+            <button id="checkearClave">Ingresar Clave</button>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./assets/js/parte1.js"></script>
+    <script type="text/javascript" src="./assets/js/parte2.js"></script>
+    <script type="text/javascript" src="./assets/js/parte3.js"></script>
+</body>
+</html>

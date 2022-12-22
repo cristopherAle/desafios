@@ -1,0 +1,146 @@
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 3.125em;
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    height: 4.5625em;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+header {
+    text-align: center;
+    /* width:100%; */
+    width:75em;
+    /* height: 45.5625em; */
+    height: 46em;
+    margin:0;
+    padding:20%;
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.desc-section {
+    background-color: #000000;
+    height: 21.75em;
+    display: flex;
+    align-items: center;
+    padding:3.125rem 9.375rem;
+    text-align: left;
+}
+
+.iguana-text, .iguana-image {
+    display: inline-block;
+    width: 50%;
+}
+
+.iguana-image {
+    text-align: center;
+}
+
+.iguana-image img {
+    /* width: 24.9375em; */
+    width: 25em;
+}
+
+.iguana-text {
+    justify-content: center;
+}
+
+.iguana-text p {
+    margin-bottom: 2em;
+}
+
+.icons-section {
+    height: 21.3125em;
+    background:#1E1A13;
+    margin:0;
+    padding: 4.625em 15.195em;
+    display: flex;
+    align-items: center;
+}
+
+.icons-section .fixed-features {
+    width: 100%;
+}
+
+.features-title {
+    width: 100%;
+    margin-bottom: 4em;
+}
+.feature-icons {
+    display: inline-block;
+    width: 30%;
+}
+
+.feature-icons i {
+    margin-bottom: 0.5em;
+}
+.features-body {
+    width: 100%;
+}
+
+.feature-icons p {
+    font-size: 1.5625em;
+    font-weight: 300;
+}
+.images-section {
+    height: 21.75em;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-section .image {
+    display: inline-block;
+    width:19.75em;
+    height: 12.625em;
+    margin: 0.5em;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #1E1A13;
+    height: 6.375em;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 1.25em;
+}
