@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    
+    grid-template-columns: auto auto auto auto;
+
+    justify-content:space-evenly;
+    border: 1px solid black;
+   
+}
+
+container2{
+  
+    border: 1px solid black;
+}
+container3{
+    border: 1px solid black;
+}
+container4{
+    border: 1px solid black;
+}
+container5{
+    border: 1px solid black;
+}
+
+
+.box {
+    height: 300px;
+    width: 300px;
+}
+
+.mensaje{
+    text-align: center;
+}
