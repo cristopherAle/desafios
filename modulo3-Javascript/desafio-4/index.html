@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4 - Inmobiliaria</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            <h1> Inmobiliaria S.A.</h1>
+            <h3>Total Encontrado: <span id="total"></span> </h3>
+        </header>
+        
+        <menu>
+            <br>
+            <div class="panel_izq">
+                <h6>Cantidad de Cuartos</h6>
+            <input type="number" id="cant_habit">
+            <br>
+
+            <h6>Metros Cuadrados</h6>
+            </div>
+        <div class="titulos">
+            <p>Desde</p>
+            <p>Hasta</p> 
+        </div>
+           
+            <div class="container"> 
+                <div>
+                    <input type="number" id="mts_desde"> 
+                </div>
+                <div>
+                    <input type="number" id="mts_hasta">
+                </div>    
+            </div>
+            <br>
+            <div class="cont_button">
+                  <input type="button" class="buscar_btn" id="btn_buscar" value="Buscar">
+            </div>    
+            
+        </menu>
+        <main id="main_card"  class="maincard">
+            
+
+
+        </main>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
