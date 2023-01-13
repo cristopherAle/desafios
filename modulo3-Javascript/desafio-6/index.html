@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas Nacional</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body style="background-color: white; color: black;">
+    <h1>Conversor de Monedas Nacional</h1>
+    <div class="card m-3 p-2" style="background-color: rgb(128, 128, 231);">
+        <div class="container" style="background-color: rgb(128, 128, 231);">
+            <div class="cuadrado1">
+                <div class="card-title text-center m-4" style="color:white;">
+                    <h6>Pesos CLP</h6>
+                    <div class="montoConvertir">
+                        <input type="number" min="0" id="montoCLP" placeholder="Ingresa Monto a convertir" class="form-control">
+                    </div>
+                </div>
+                <div class="card-title text-center m-4" style="color: white;">
+                    <h6>Moneda a Convertir</h6>
+                    <div class="conMonedaSel">
+                        <select  id="seleccionDivisa" class="form-control">
+                            <option value="" selected disabled>Seleccione Moneda</option>
+                        </select> 
+                    </div>
+                    <a id="convertirDivisa" class="btn btn-primary m-2" >Convertir</a>
+                    <h5 id="resultado" class="text-center" style="color:black">...</h5>
+                    
+                    
+                </div>
+                <br>
+            </div>
+           
+        </div>
+        
+</div>
+
+</div>
+<br>
+<div class="prueba text-center">
+    <div class="card m-3 p-2" style="background-color: white;">
+        <div class="container" style="background-color: white;">
+            <div class="contCanva" p-3 id="chartContainer">
+               
+            </div>
+        </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
